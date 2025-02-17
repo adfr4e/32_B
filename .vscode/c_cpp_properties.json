@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Startup/**",
+                "${workspaceFolder}/User/Inc/**",
+                "${workspaceFolder}/Os/Inc/**",
+                "${workspaceFolder}/Hardware/Inc/**",
+                "${workspaceFolder}/Drivers/Inc/**",
+                "${workspaceFolder}/CMSIS/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "HBM32G003.h",
+                "stdint.h",
+                "stdio.h",
+                "HBM32G003_adc.h",
+                "HBM32G003_conf.h",
+                "HBM32G003_exti.h",
+                "HBM32G003_falsh.h",
+                "HBM32G003_gpio.h",
+                "HBM32G003_iic.h",
+                "HBM32G003_iwdt.h",
+                "HBM32G003_port.h",
+                "HBM32G003_power.h",
+                "HBM32G003_pwmbase.h",
+                "HBM32G003_pwmplus.h",
+                "HBM32G003_spi.h",
+                "HBM32G003_timerplus.h",
+                "HBM32G003_uart.h",
+                "bkInc.h"
+            ]
+        }
+    ],
+    "version": 4
+}
